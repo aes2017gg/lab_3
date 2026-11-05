@@ -15,7 +15,7 @@ void danger_signal (int N, int *danger)
         }
         else
         {
-            printf("YES\n");
+            printf("YES\n\a");
         }
         scanf("%c", &c);
     }
