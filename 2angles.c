@@ -5,7 +5,7 @@ int coord_to_second (struct coordinates x) {
 }
 
 float angle (struct position dot, struct position ship) {
-    return (coord_to_second(dot.lat) - coord_to_second(ship.lat)) / (coord_to_second(dot.longitude) - coord_to_second(ship.longitude));
+    return (float)(coord_to_second(dot.lat) - coord_to_second(ship.lat)) / (float)(coord_to_second(dot.longitude) - coord_to_second(ship.longitude));
 }
 
 void matrix_of_slopes (int N, struct position *ship, struct fig triangle, struct position port, float (*slopes)[4]) {
