@@ -1,4 +1,5 @@
 #include "structures.h"
+#include "main.h"
 
 int coord_to_second (struct coordinates x) {
     return x.degree * 3600 + x.minute * 60 + x.second;
