@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 #include "structures.h"
+#include "main.h"
 
 int main() {
     int N = 0;
