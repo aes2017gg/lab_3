@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include"main.h"
+
 void danger_signal (int N, int *danger)
 {
     int i;
     char c;
+    scanf("%c", &c);
     for(i = 0; i < N; i++)
     {
         printf("%d    ", i + 1);
