@@ -9,8 +9,8 @@ int main() {
     struct position ship[50];
     struct fig triangle;
     struct position port;
-    float slopes[50][4]={};
-    int danger[50]={};
+    float slopes[50][4] = {};
+    int danger[50] = {};
 
     input_ship(N, ship);
     triangle = input_triangle();
