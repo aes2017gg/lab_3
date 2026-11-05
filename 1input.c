@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "structures.h"
+#include "main.h"
 
 struct position input_port() {
     struct position p;
